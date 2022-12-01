@@ -1,0 +1,33 @@
+body{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: #252525;
+  
+}
+.left_menu{
+  justify-content: space-between;
+  display: flex;
+  border-right: 1px solid rgb(82, 82, 82);
+  background: #252525;
+  align-items: center;
+  flex-direction: column;
+  width: 80px;
+  height: 100vh;
+}
+.menu_but{
+  flex-direction: column;
+  display: flex;
+  width: 80px;
+  align-items: center;
+}
+.vib{
+  width: 30px;
+  height: 30px;
+  padding: 25px;
+}
+.vib:hover{
+  background: linear-gradient(127.44deg, #505050 0%, #383838 100%);
+}
